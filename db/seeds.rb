@@ -17,7 +17,7 @@
 #   t.datetime "updated_at", null: false
 # end
 
-User.create(username: 'oahtpham')
+u1 = User.create(username: 'oahtpham', email: 'phamthaop.9@gmail.com', first_name: 'thao', last_name: 'pham', img_url: 'https://media.licdn.com/dms/image/C4D03AQElaK3Pw6r77g/profile-displayphoto-shrink_200_200/0?e=1556755200&v=beta&t=OeJHYI4ySZDH9Hp4SSkAbCX1CjJ4jwl0DEpti3p_OYQ')
 #
 # create_table "lists", force: :cascade do |t|
 #   t.string "user_id"
