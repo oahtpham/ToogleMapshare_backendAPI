@@ -48,6 +48,7 @@ ActiveRecord::Schema.define(version: 2019_02_21_174709) do
   create_table "reviews", force: :cascade do |t|
     t.integer "user_id"
     t.integer "place_id"
+    t.integer "rating"
     t.text "notes"
   end
 
