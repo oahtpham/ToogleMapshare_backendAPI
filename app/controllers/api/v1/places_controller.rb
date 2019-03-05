@@ -21,7 +21,7 @@ class Api::V1::PlacesController < ApplicationController
   private
 
   def strong_params
-    params.require(:place).permit(:yelp_id, :name, :address, :latitude, :longitude, :img_url, :yelp_url, :yelp_rating, :price)
+    params.require(:place).permit(:yelp_id, :name, :address, :city, :state, :zip_code, :latitude, :longitude, :img_url, :yelp_url, :yelp_rating, :price)
   end
 
   def find_place

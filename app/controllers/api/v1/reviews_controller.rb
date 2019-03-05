@@ -5,11 +5,14 @@ class Api::V1::ReviewsController < ApplicationController
     render json: @reviews
   end
 
+  def show
+    @review = Review.find(params[:id])
+    render json: @review
+  end
+
   def create
-    @review = Review.find_by(yelp_id: params[:yelp_id])
-    if (!@review)
-      @review = Review.create(strong_params)
-    end
+    @place = Place.find_by(yelp_id: params[:yelp_id])
+    @review =  Review.create(user_id: params[:user_id], place_id: @place.id, notes: params[:notes], rating: params[:rating])
     render json: @review, status: :created
   end
 
@@ -21,7 +24,7 @@ class Api::V1::ReviewsController < ApplicationController
   private
 
   def strong_params
-    params.require(:review).permit(:user_id, :place_id, :notes)
+    params.require(:review).permit(:user_id, :place_id, :notes, :rating)
   end
 
   def find_review
