@@ -25,6 +25,8 @@ u3 = User.create(username: 'jpham09', email: 'jpham09@gmail.com', first_name: 'j
 
 u4 = User.create(username: 'brianelly', email: 'bmnelson@gmail.com', first_name: 'brianna', last_name: 'nelson', img_url: 'https://media.licdn.com/dms/image/C5603AQERDZ6lN8cWkQ/profile-displayphoto-shrink_800_800/0?e=1556755200&v=beta&t=wWNe52tiRSLfguhmfGFbZe1EKTnRXOoPwmz9wBBL4aE')
 
+u5 = User.create(username: 'nmuttablib', email: 'nabeel.muttablib@gmail.com', first_name: 'nabeel', last_name: 'muttalib', img_url: 'https://media.licdn.com/dms/image/C5603AQHSbT69pK_Xyw/profile-displayphoto-shrink_800_800/0?e=1557360000&v=beta&t=z_F_w-PT8f5z01tjim5InVz2wxaRuPD2eIHe-IM09lQ')
+
 #
 # create_table :lists do |t|
 #   t.integer :user_id
@@ -39,6 +41,8 @@ l3 = List.create(user_id: 3, title: 'Places to visit at home', location_area: "s
 l4 = List.create(user_id: 4, title: 'New Orleans Trip', location_area: "new orleans", latitude: 29.95962, longitude: -90.06882)
 l5 = List.create(user_id: 3, title: 'Visiting Harvard', location_area: "boston", latitude: 42.3511377, longitude: -71.0776626)
 l6 = List.create(user_id: 2, title: 'Ivy League Tour', location_area: "boston", latitude: 42.3511377, longitude: -71.0776626)
+l7 = List.create(user_id: 2, title: 'Vegas', location_area: "las vegas", latitude: 36.1699412, longitude: -115.1398296)
+
 
 #
 # create_table "places", force: :cascade do |t|
@@ -255,6 +259,79 @@ yelp_url: "https://www.yelp.com/biz/p-and-j-oyster-co-new-orleans?adjust_creativ
 yelp_rating: 5,
 price: "$")
 
+p15 = Place.create(
+yelp_id: "tSaVNiSvUjAIL8Mh4hTz1A",
+name: "Bug Evictors",
+address: "5499 Sentinel Point Ct",
+city: "Las Vegas",
+state: "NV",
+zip_code: "89135",
+latitude: "36.08855",
+longitude: "-115.32584",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/a5OT1uvIiOex0McBlqnyWg/o.jpg",
+yelp_url: "https://www.yelp.com/biz/bug-evictors-las-vegas-2?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: ''
+)
+
+p16 = Place.create(
+yelp_id: "kICgNgVRkIh4doz0atyMMA",
+name: "Hakkasan Restaurant",
+address: "3799 Las Vegas Blvd S",
+city: "Las Vegas",
+state: "NV",
+zip_code: "89109",
+latitude: "36.101422",
+longitude: "-115.172448",
+img_url: "https://s3-media4.fl.yelpcdn.com/bphoto/hLtfUUajX_yeGVXSH34Paw/o.jpg",
+yelp_url: "https://www.yelp.com/biz/hakkasan-restaurant-las-vegas-3?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$$$$")
+
+p17 = Place.create(
+yelp_id: "tN811hdfYIYW9qJBM41klw",
+name: "Excess VIP Las Vegas",
+address: "3651 Lindell Rd",
+city: "Las Vegas",
+state: "NV",
+zip_code: "89109",
+latitude: "36.12326",
+longitude: "-115.21708",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/ogJiZFTY-CEtuyKkuKz7YQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/excess-vip-las-vegas-las-vegas-3?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: ""
+)
+
+p18 = Place.create(
+yelp_id: "shJPvAZ1pdUVm9DORQ6g3g",
+name: "Hot Shot",
+address: "",
+city: "Las Vegas",
+state: "NV",
+zip_code: "89123",
+latitude: "36.0212003176559",
+longitude: "-115.168285918675",
+img_url: "https://s3-media1.fl.yelpcdn.com/bphoto/_0KeqjTzaLQZnRcq5gPZpQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/hot-shot-las-vegas?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: "$$"
+)
+
+p19 = Place.create(
+yelp_id: "awI4hHMfa7H0Xf0-ChU5hg",
+name: "The Oyster Bar",
+address: "2411 W Sahara Ave",
+city: "Las Vegas",
+state: "NV",
+zip_code: "89102",
+latitude: "36.1431362393044",
+longitude: "-115.174707547716",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/nsM3QbIwy51Q74ppUqGE8A/o.jpg",
+yelp_url: "https://www.yelp.com/biz/the-oyster-bar-las-vegas-2?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$$")
+
 # create_table "pinned_locations", force: :cascade do |t|
 #   t.integer "place_id"
 #   t.integer "list_id"
@@ -277,8 +354,11 @@ pl11 = PinnedLocation.create(place_id: 11, list_id: 4, user_id: 4)
 pl12 = PinnedLocation.create(place_id: 12, list_id: 4, user_id: 4)
 pl13 = PinnedLocation.create(place_id: 13, list_id: 4, user_id: 4)
 pl14 = PinnedLocation.create(place_id: 14, list_id: 4, user_id: 4)
-
-
+pl17 = PinnedLocation.create(place_id: 15, list_id: 7, user_id: 5)
+pl18 = PinnedLocation.create(place_id: 16, list_id: 7, user_id: 5)
+pl19 = PinnedLocation.create(place_id: 17, list_id: 7, user_id: 5)
+pl20 = PinnedLocation.create(place_id: 18, list_id: 7, user_id: 5)
+pl21 = PinnedLocation.create(place_id: 19, list_id: 7, user_id: 5)
 # create_table :reviews do |t|
 #   t.integer :user_id
 #   t.integer :place_id
@@ -286,7 +366,23 @@ pl14 = PinnedLocation.create(place_id: 14, list_id: 4, user_id: 4)
 #   t.text :notes
 
 r1 = Review.create(user_id: 1, place_id: 1, rating: 4, notes: "Doggo ipsum long water shoob heckin good boys and girls blep wow very biscit, mlem super chub. Corgo he made many woofs long doggo waggy wags length boy, doing me a frighten many pats lotsa pats. Long doggo yapper clouds much ruin diet puggorino ruff, shoob borkf stop it fren. Floofs much ruin diet heckin yapper maximum borkdrive you are doin me a concern shoober, big ol pupper long bois vvv you are doing me a frighten. Shooberino the neighborhood pupper heckin good boys many pats boof, much ruin diet stop it fren shibe.")
+
 r2 = Review.create(user_id: 3, place_id: 1, rating: 5, notes: "Fluffer borkdrive he made many woofs blep what a nice floof, smol borking doggo with a long snoot for pats porgo. Lotsa pats many pats borking doggo shooberino doggorino noodle horse, adorable doggo h*ck very taste wow shoober. Heck wow very biscit super chub floofs clouds, blop doggorino. Ruff sub woofer blop ruff heckin good boys and girls, waggy wags noodle horse.")
+
 r3 = Review.create(user_id: 4, place_id: 1, rating: 3, notes: "Doggorino you are doing me a frighten very hand that feed shibe adorable doggo, very jealous pupper boofers. Porgo blep floofs tungg bork lotsa pats, boofers adorable doggo bork. Puggorino floofs heckin good boys long bois floofs big ol blep, doge you are doing me a frighten boofers the neighborhood pupper. woofer. Doing me a frighten lotsa pats long woofer smol borking doggo with a long snoot for pats very hand that feed shibe, I am bekom fat heckin good boys and girls big ol pupper. Corgo boofers most angery pupper I have ever seen wow very biscit doggo shoober snoot ur givin me a spook, very hand that feed shibe you are doing me the shock sub woofer you are doing me the shock many pats borkf.")
+
 r4 = Review.create(user_id: 1, place_id: 2, rating: 4, notes: "Doggo ipsum long water shoob heckin good boys and girls blep wow very biscit, mlem super chub. Corgo he made many woofs long doggo waggy wags length boy, doing me a frighten many pats lotsa pats. Long doggo yapper clouds much ruin diet puggorino ruff, shoob borkf stop it fren. Floofs much ruin diet heckin yapper maximum borkdrive you are doin me a concern shoober, big ol pupper long bois vvv you are doing me a frighten. Shooberino the neighborhood pupper heckin good boys many pats boof, much ruin diet stop it fren shibe.")
+
 r5 = Review.create(user_id: 1, place_id: 3, rating: 4, notes: "Doggo ipsum long water shoob heckin good boys and girls blep wow very biscit, mlem super chub. Corgo he made many woofs long doggo waggy wags length boy, doing me a frighten many pats lotsa pats. Long doggo yapper clouds much ruin diet puggorino ruff, shoob borkf stop it fren. Floofs much ruin diet heckin yapper maximum borkdrive you are doin me a concern shoober, big ol pupper long bois vvv you are doing me a frighten. Shooberino the neighborhood pupper heckin good boys many pats boof, much ruin diet stop it fren shibe.")
+
+r6 = Review.create(user_id: 1, place_id: 15, rating: 1, notes: "On point, fantastic mate! Delicious empanadas, nice design.
+
+Had the El Porteño with tropical breeze in a glass gourd.  Taste great, perfectly sweet and caught a good buzz.  For a mate drinker, it is a way better option than Guayakí.
+
+Chocotorta should be illegal because it is too good.")
+
+r7 = Review.create(user_id: 1, place_id: 13, rating: 5, notes: "'m impressed with how they converted the dark and dingy Brooklyn Bahn Mi which used to occupy this spot (which I loved, but it was dark...). Superbly designed and bright, this is a nice addition to the neighborhood. The mate was great, coming with a big jar of hot water so you can slowly caffeinate for a long time. Alfrajors were delicious and beautiful, and the beef empanada were flavorful and spicy too.")
+
+r8 = Review.create(user_id: 1, place_id: 10, rating: 2, notes: "The only real negative is that everything is definitely overpriced. Expensive enough that I won't return as often as I would have otherwise")
+
+r9 = Review.create(user_id: 1, place_id: 8, rating: 4, notes: "If this matters to you, snacks here are not vegan friendly but are vegetarian friendly.  Only one savory option exists for vegetarians-- the Greenpoint empanada.  All the other vegetarian options are sweets.")
