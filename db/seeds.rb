@@ -42,6 +42,12 @@ l4 = List.create(user_id: 4, title: 'New Orleans Trip', location_area: "new orle
 l5 = List.create(user_id: 3, title: 'Visiting Harvard', location_area: "boston", latitude: 42.3511377, longitude: -71.0776626)
 l6 = List.create(user_id: 2, title: 'Ivy League Tour', location_area: "boston", latitude: 42.3511377, longitude: -71.0776626)
 l7 = List.create(user_id: 2, title: 'Vegas', location_area: "las vegas", latitude: 36.1699412, longitude: -115.1398296)
+l8 = List.create(user_id: 2, title: 'NYC Trip', location_area: "new york", latitude: 40.7127753, longitude: -74.0059728)
+l9 = List.create(user_id: 3, title: 'NYC Shenanigans', location_area: "new york", latitude: 40.7127753, longitude: -74.0059728)
+l10 = List.create(user_id: 1, title: 'NOLA', location_area: "new orleans", latitude: 29.95962, longitude: -90.06882)
+l11 = List.create(user_id: 3, title: 'New Orleansss', location_area: "new orleans", latitude: 29.95962, longitude: -90.06882)
+l12 = List.create(user_id: 4, title: 'Ski Trip', location_area: "denver", latitude: 39.7392358, longitude: -104.990251)
+
 
 
 #
@@ -332,6 +338,163 @@ yelp_url: "https://www.yelp.com/biz/the-oyster-bar-las-vegas-2?adjust_creative=U
 yelp_rating: 4.5,
 price: "$$")
 
+p20 = Place.create(yelp_id: "zj8Lq1T8KIC5zwFief15jg",
+name: "Prince Street Pizza",
+address: "27 Prince St",
+city: "New York",
+state: "NY",
+zip_code: "10012",
+latitude: "40.7229087705545",
+longitude: "-73.9944863319397",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/ZAukOyv530w4KjOHC5YY1w/o.jpg",
+yelp_url: "https://www.yelp.com/biz/prince-street-pizza-new-york-2?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$")
+
+p21 = Place.create(
+yelp_id: "fxN2HYA1uyrdkXR9XX-Uwg",
+name: "I CE NY",
+address: "101 Macdougal St",
+city: "New York",
+state: "NY",
+zip_code: "10012",
+latitude: "40.7296251968846",
+longitude: "-74.0009496311209",
+img_url: "https://s3-media4.fl.yelpcdn.com/bphoto/XmKNzse41nZL_tclOP7j8g/o.jpg",
+yelp_url: "https://www.yelp.com/biz/i-ce-ny-new-york?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$")
+
+p22 = Place.create(yelp_id: "qfk_JyRqMmm6FDfoqN6GiA",
+name: "10Below Ice Cream",
+address: "10 Mott St",
+city: "New York",
+state: "NY",
+zip_code: "10013",
+latitude: "40.71407",
+longitude: "-73.99857",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/d4HIqD5t5fuLJ9C5HkoReA/o.jpg",
+yelp_url: "https://www.yelp.com/biz/10below-ice-cream-new-york-3?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$")
+
+p23 = Place.create(yelp_id: "HZWHBfeuP4Fb6y8b8uqnbA",
+name: "Sushi Yasaka",
+address: "251 W 72nd St",
+city: "New York",
+state: "NY",
+zip_code: "10023",
+latitude: "40.779583",
+longitude: "-73.983482",
+img_url: "https://s3-media4.fl.yelpcdn.com/bphoto/_U6FaHQbA_44sUQBVlI9_Q/o.jpg",
+yelp_url: "https://www.yelp.com/biz/sushi-yasaka-new-york?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$$")
+
+p24 = Place.create(yelp_id: "PeF7yLqitOP28UYE-mD0qg",
+name: "Tone House UES",
+address: "201 E 71st St",
+city: "New York",
+state: "NY",
+zip_code: "10021",
+latitude: "40.769135",
+longitude: "-73.9606654",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/COjREZ2A72E21Tr6Db37tw/o.jpg",
+yelp_url: "https://www.yelp.com/biz/tone-house-ues-new-york?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: "")
+
+p24 = Place.create(yelp_id: "m2Zsy2UAkcDf0cRzk2Yoqw",
+name: "Madame Vo",
+address: "212 E 10th St",
+city: "New York",
+state: "NY",
+zip_code: "10003",
+latitude: "40.72925",
+longitude: "-73.98612",
+img_url: "https://s3-media1.fl.yelpcdn.com/bphoto/S_S_ITZlC7r80LnlNTYfcA/o.jpg",
+yelp_url: "https://www.yelp.com/biz/madame-vo-new-york?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$$")
+
+p25 = Place.create(yelp_id: "Xf6e3HaP0AgMBxY7dEDkOA",
+name: "99 Favor Taste",
+address: "285 Grand St",
+city: "New York",
+state: "NY",
+zip_code: "10002",
+latitude: "40.7176199",
+longitude: "-73.99249",
+img_url: "https://s3-media4.fl.yelpcdn.com/bphoto/9ASZK8StF_TT_kzbuQhScA/o.jpg",
+yelp_url: "https://www.yelp.com/biz/99-favor-taste-new-york-12?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$$")
+
+p26 = Place.create(yelp_id: "LRyRNUWVSZ8NXPuCzTrfpA",
+name: "Union Lodge No.1",
+address: "1543 Champa St",
+city: "Denver",
+state: "CO",
+zip_code: "80202",
+latitude: "39.74627",
+longitude: "-104.99462",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/jQpwkClues7QyvTy9eYluQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/union-lodge-no-1-denver?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: "$$")
+
+p27 = Place.create(yelp_id: "S8gNvHhuM3n-RJcV74jAYg",
+name: "Tatarian",
+address: "4024 Tennyson St",
+city: "Denver",
+state: "CO",
+zip_code: "80212",
+latitude: "39.7721226",
+longitude: "-105.043673",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/GLAj4gjmT8jVoSNLm9xyUA/o.jpg",
+yelp_url: "https://www.yelp.com/biz/tatarian-denver-2?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 5,
+price: "$$")
+
+p28 = Place.create(yelp_id: "gagUrh3806qc5hZ14F0Odw",
+name: "Denver Biscuit Co.",
+address: "3237 E Colfax Ave",
+city: "Denver",
+state: "CO",
+zip_code: "80206",
+latitude: "39.740384",
+longitude: "-104.949098",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/NiiTDBCR0Fgw0yD6wC66WQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/denver-biscuit-co-denver-17?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$$")
+
+p29 = Place.create(yelp_id: "svJWwW0ilssyqk_UML0mUg",
+name: "Work & Class",
+address: "2500 Larimer St",
+city: "Denver",
+state: "CO",
+zip_code: "80205",
+latitude: "39.75761",
+longitude: "-104.98604",
+img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/wknJ1nD0jTQssiXfW-tjFQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/work-and-class-denver?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$$")
+
+p30 = Place.create(yelp_id: "LX8nS1dlW7MEZDDEmVcyGw",
+name: "Root Down",
+address: "1600 W 33rd Ave",
+city: "Denver",
+state: "CO",
+zip_code: "80211",
+latitude: "39.76306",
+longitude: "-105.0056",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/21eJsFMltbsHGicq5__7LQ/o.jpg",
+yelp_url: "https://www.yelp.com/biz/root-down-denver?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$$")
+
 # create_table "pinned_locations", force: :cascade do |t|
 #   t.integer "place_id"
 #   t.integer "list_id"
@@ -359,6 +522,31 @@ pl18 = PinnedLocation.create(place_id: 16, list_id: 7, user_id: 5)
 pl19 = PinnedLocation.create(place_id: 17, list_id: 7, user_id: 5)
 pl20 = PinnedLocation.create(place_id: 18, list_id: 7, user_id: 5)
 pl21 = PinnedLocation.create(place_id: 19, list_id: 7, user_id: 5)
+pl22 = PinnedLocation.create(place_id: 20, list_id: 8, user_id: 2)
+pl23 = PinnedLocation.create(place_id: 21, list_id: 8, user_id: 2)
+pl24 = PinnedLocation.create(place_id: 22, list_id: 8, user_id: 2)
+pl25 = PinnedLocation.create(place_id: 23, list_id: 8, user_id: 2)
+pl26 = PinnedLocation.create(place_id: 24, list_id: 8, user_id: 2)
+pl27 = PinnedLocation.create(place_id: 25, list_id: 8, user_id: 2)
+pl28 = PinnedLocation.create(place_id: 22, list_id: 9, user_id: 2)
+pl29 = PinnedLocation.create(place_id: 20, list_id: 9, user_id: 3)
+pl30 = PinnedLocation.create(place_id: 24, list_id: 9, user_id: 3)
+pl31 = PinnedLocation.create(place_id: 25, list_id: 9, user_id: 3)
+pl32 = PinnedLocation.create(place_id: 23, list_id: 9, user_id: 3)
+pl34 = PinnedLocation.create(place_id: 12, list_id: 10, user_id: 1)
+pl35 = PinnedLocation.create(place_id: 13, list_id: 10, user_id: 1)
+pl36 = PinnedLocation.create(place_id: 14, list_id: 10, user_id: 1)
+pl37 = PinnedLocation.create(place_id: 10, list_id: 11, user_id: 3)
+pl38 = PinnedLocation.create(place_id: 11, list_id: 11, user_id: 3)
+pl39 = PinnedLocation.create(place_id: 12, list_id: 11, user_id: 3)
+pl40 = PinnedLocation.create(place_id: 13, list_id: 11, user_id: 3)
+pl41 = PinnedLocation.create(place_id: 14, list_id: 11, user_id: 3)
+pl42 = PinnedLocation.create(place_id: 26, list_id: 12, user_id: 4)
+pl43 = PinnedLocation.create(place_id: 27, list_id: 12, user_id: 4)
+pl44 = PinnedLocation.create(place_id: 28, list_id: 12, user_id: 4)
+pl45 = PinnedLocation.create(place_id: 29, list_id: 12, user_id: 4)
+pl46 = PinnedLocation.create(place_id: 30, list_id: 12, user_id: 4)
+
 # create_table :reviews do |t|
 #   t.integer :user_id
 #   t.integer :place_id
@@ -386,3 +574,9 @@ r7 = Review.create(user_id: 1, place_id: 13, rating: 5, notes: "'m impressed wit
 r8 = Review.create(user_id: 1, place_id: 10, rating: 2, notes: "The only real negative is that everything is definitely overpriced. Expensive enough that I won't return as often as I would have otherwise")
 
 r9 = Review.create(user_id: 1, place_id: 8, rating: 4, notes: "If this matters to you, snacks here are not vegan friendly but are vegetarian friendly.  Only one savory option exists for vegetarians-- the Greenpoint empanada.  All the other vegetarian options are sweets.")
+
+r10 = Review.create(user_id: 3, place_id: 20, rating: 5, notes: "'m impressed with how they converted the dark and dingy Brooklyn Bahn Mi which used to occupy this spot (which I loved, but it was dark...). Superbly designed and bright, this is a nice addition to the neighborhood. The mate was great, coming with a big jar of hot water so you can slowly caffeinate for a long time. Alfrajors were delicious and beautiful, and the beef empanada were flavorful and spicy too.")
+
+r11 = Review.create(user_id: 4, place_id: 16, rating: 2, notes: "The only real negative is that everything is definitely overpriced. Expensive enough that I won't return as often as I would have otherwise")
+
+r12 = Review.create(user_id: 5, place_id: 12, rating: 4, notes: "If this matters to you, snacks here are not vegan friendly but are vegetarian friendly.  Only one savory option exists for vegetarians-- the Greenpoint empanada.  All the other vegetarian options are sweets.")
