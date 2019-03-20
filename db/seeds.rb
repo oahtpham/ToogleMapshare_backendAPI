@@ -266,18 +266,18 @@ yelp_rating: 5,
 price: "$")
 
 p15 = Place.create(
-yelp_id: "tSaVNiSvUjAIL8Mh4hTz1A",
-name: "Bug Evictors",
-address: "5499 Sentinel Point Ct",
+yelp_id: "IT_4EEIbv6Ox1jBRMyE7pg",
+name: "Del Frisco's Double Eagle Steakhouse",
+address: "3925 Paradise Rd",
 city: "Las Vegas",
 state: "NV",
-zip_code: "89135",
-latitude: "36.08855",
-longitude: "-115.32584",
-img_url: "https://s3-media2.fl.yelpcdn.com/bphoto/a5OT1uvIiOex0McBlqnyWg/o.jpg",
-yelp_url: "https://www.yelp.com/biz/bug-evictors-las-vegas-2?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
-yelp_rating: 5,
-price: ''
+zip_code: "89169",
+latitude: "36.1179815811115",
+longitude: "-115.155438561073",
+img_url: "https://s3-media4.fl.yelpcdn.com/bphoto/AVAuWOfogjQT6FsOt6rSAw/o.jpg",
+yelp_url: "https://www.yelp.com/biz/del-friscos-double-eagle-steakhouse-las-vegas?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4.5,
+price: "$$$$"
 )
 
 p16 = Place.create(
@@ -310,18 +310,18 @@ price: ""
 )
 
 p18 = Place.create(
-yelp_id: "shJPvAZ1pdUVm9DORQ6g3g",
-name: "Hot Shot",
-address: "",
+yelp_id: "OETh78qcgDltvHULowwhJg",
+name: "Gordon Ramsay Steak",
+address: "3655 Las Vegas Blvd S",
 city: "Las Vegas",
 state: "NV",
-zip_code: "89123",
-latitude: "36.0212003176559",
-longitude: "-115.168285918675",
-img_url: "https://s3-media1.fl.yelpcdn.com/bphoto/_0KeqjTzaLQZnRcq5gPZpQ/o.jpg",
-yelp_url: "https://www.yelp.com/biz/hot-shot-las-vegas?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
-yelp_rating: 5,
-price: "$$"
+zip_code: "89109",
+latitude: "36.1123377748501",
+longitude: "-115.171696137119",
+img_url: "https://s3-media3.fl.yelpcdn.com/bphoto/JnpVM4yFYw7FSueTRi7Fcw/o.jpg",
+yelp_url: "https://www.yelp.com/biz/gordon-ramsay-steak-las-vegas?adjust_creative=UdqMl7OCWeHffTZGGVZMaA&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=UdqMl7OCWeHffTZGGVZMaA",
+yelp_rating: 4,
+price: "$$$$"
 )
 
 p19 = Place.create(
@@ -569,7 +569,7 @@ Had the El Porteño with tropical breeze in a glass gourd.  Taste great, perfect
 
 Chocotorta should be illegal because it is too good.")
 
-r7 = Review.create(user_id: 1, place_id: 13, rating: 5, notes: "'m impressed with how they converted the dark and dingy Brooklyn Bahn Mi which used to occupy this spot (which I loved, but it was dark...). Superbly designed and bright, this is a nice addition to the neighborhood. The mate was great, coming with a big jar of hot water so you can slowly caffeinate for a long time. Alfrajors were delicious and beautiful, and the beef empanada were flavorful and spicy too.")
+r7 = Review.create(user_id: 1, place_id: 13, rating: 5, notes: "I'm impressed with how they converted the dark and dingy Brooklyn Bahn Mi which used to occupy this spot (which I loved, but it was dark...). Superbly designed and bright, this is a nice addition to the neighborhood. The mate was great, coming with a big jar of hot water so you can slowly caffeinate for a long time. Alfrajors were delicious and beautiful, and the beef empanada were flavorful and spicy too.")
 
 r8 = Review.create(user_id: 1, place_id: 10, rating: 2, notes: "The only real negative is that everything is definitely overpriced. Expensive enough that I won't return as often as I would have otherwise")
 
